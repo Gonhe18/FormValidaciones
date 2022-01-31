@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main" class="container p-4 mt-4 d-flex flex-column justify-content-start">
+        <h2>Ingrese su mail y contraseña para loggearse</h2>
+        <form>
+            <div class="mb-3" id="login-div-email">
+              <label for="login-email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp">
+              <div id="login-help" class="form-text">Descuide: no compartiremos su mail con ninguna entidad.</div>
+            </div>
+            <div class="mb-3" id="login-div-password">
+              <label for="login-password" class="form-label">Password</label>
+              <div id="login-password-help1" class="form-text">Su password debe tener al menos 12 caracteres.</div>
+              <input type="password" class="form-control" id="login-password">
+            </div>
+            <button id="login-btn" type="button" class="btn btn-success">Login</button>
+            <span><i>¿No tienes cuenta? <a href="registro.html">Has click aquí</a></i></span>
+        </form>
+    </div>
+    
+
+    <!-- JS propio -->
+    <script src="./js/login.js"></script>
+    <!-- <script src="./js/resolucion-login.js"></script> -->
+</body>
+</html>

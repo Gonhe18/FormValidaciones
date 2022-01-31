@@ -1,0 +1,60 @@
+/*No tocar éstas clases/selectores */
+/**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5 rem;
+    line-height: 3rem;
+    text-align: center;
+    margin: 2rem 0px;
+}
+/**/
+
+/* Quienes hayan elegido el DESAFIO 2: Clases que pueden ayudarte (deberás determinar cómo y cuando usarlas). Podés modificar algunos valores o agregar algunas reglas, pero no perder de vista para qué existen */
+.error-msg{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.exito-msg{
+    color: rgb(29, 190, 29);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.oculto{
+    /* display: none; */
+    visibility: hidden;
+}
+
+
+input:valid { 
+    border: solid 3px;
+    border-color:#ccc;
+}
+
+input:invalid { 
+    border: solid 3px;
+    border-color: red; 
+} 
+
+img{
+    width: 40px;
+}
+
+
+
+/* No tocar*/
+/**/
+@media screen and (min-width: 1024px){
+    #main{
+        width: 50%;
+    }
+}
+/**/
